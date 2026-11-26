@@ -1,0 +1,2 @@
+import SkillTag from "./SkillTag";
+export default function ProfileCard({ person }) { return <article className="profile-card"><div className={`avatar ${person.color}`}>{person.initials}</div><div className="profile-info"><span className="role">{person.role}</span><h3>{person.name}</h3><p className="location">⌖ {person.location}</p><div className="skills">{person.skills.map(skill => <SkillTag key={skill} label={skill}/>)}</div></div><button className="arrow" aria-label={`View ${person.name}`}>↗</button></article>; }

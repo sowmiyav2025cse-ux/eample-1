@@ -1,0 +1,1 @@
+export default function Footer() { return <footer className="footer">Built with React components <span>© 2026 PeopleSpace</span></footer>; }

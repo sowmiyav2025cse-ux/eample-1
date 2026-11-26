@@ -1,0 +1,1 @@
+export default function Header() { return <header className="topbar"><a className="brand" href="#">◈ people<span>space</span></a><nav><a href="#team">Team</a><a href="#about">About</a><button className="nav-button">Join community ↗</button></nav></header>; }
